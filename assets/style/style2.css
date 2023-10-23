@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,400;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/fondo\ gris.jpg);
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 80vh;
+}
+
+/*home*/
+
+.super {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #D4C4A6;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+}
+
+.super a {
+    transition: .3s;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    transition: .3s;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px 5px;
+}
+
+.super img {
+    width: 30px;
+    height: 30px;
+    align-items: end;
+}
+
+
+.S1 {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+.tit {
+    color: whitesmoke;
+    font-size: 35px;
+}
+
+.subt {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+div .Banner {
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin-bottom: 40px;
+}
+
+.i1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ima1 {
+    width: 250px;
+    height: 400px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.txt1 {
+    font-family: 'Kanit', sans-serif;
+    color: whitesmoke;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 15px;
+}
+
+footer {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-size: 10px;
+    font-family: 'Kanit', sans-serif;
+    background-color: wheat;
+    color: black;
+    text-align: center;
+}
+
+/*AboutUs*/
+
+.txtAbo {
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.txt2,
+.txt3,
+.txt4 {
+    font-family: 'Kanit', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 15px;
+}
+
+.i2,
+.i3,
+.i4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.ima2,
+.ima3,
+.ima4 {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    padding-right: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    object-fit: cover;
+}
+
+/*contact*/
+
+.txtCnt {
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.ima5 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px;
+}
+
+.I5 {
+    border-radius: 20px;
+}
+
+.txt5 {
+    font-family: 'Kanit', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.contactos {
+    display: flex;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    font-size: 20px;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contactos a {
+    color: whitesmoke;
+}
+
+/*service*/
+
+.s4 {
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+table {
+    color: #fff;
+    font-size: 40px;
+    padding: 5px;
+    background-color: #D4C4A6;
+}
+
+table {
+    color: black;
+    font-size: 25px;
+    border-collapse: separate;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+thead {
+    background: rgba(255, 255, 255, 0.534);
+}
+
+th {
+    padding: 15px 10px;
+    font-weight: 500;
+}
+
+td {
+    padding: 15px;
+}
+
+/*rating*/
+
+.listas2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    object-fit: scale-down;
+    padding: 15px;
+}
+
+.list2 {
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    width: 40rem;
+    height: 15rem;
+    border-radius: 15px;
+    background-color: #d4c4a671;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.list1 {
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.ph1 {
+    width: 255px;
+    height: 250px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.st1 {
+    width: 150px;
+    height: 50px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.ph2 {
+    width: 255px;
+    height: 250px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.st2 {
+    width: 150px;
+    height: 50px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+}
+
+.piedepagina {
+    display: flex;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.r1 {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+/*mapa y formulario*/
+
+
+
+.MapaYFormulario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 15px;
+    background-color: #d4c4a671;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.Ft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.MP {
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.mp {
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    display: flex;
+    border-radius: 15px;
+    background-color: #d4c4a671;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 15px;
+}
+
+/*responsive*/
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+
+    /*Home*/
+    .super {
+        flex-direction: column-reverse;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .i1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .txt1 {
+        font-size: 20px;
+    }
+
+    /*AboutUs*/
+
+    .i2,
+    .i3,
+    .i4 {
+        flex-direction: column;
+    }
+
+    /*contact*/
+
+    .txt5 {
+        flex-direction: column
+    }
+
+    .contactos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .I5 {
+        display: flex;
+        object-fit: cover;
+        width: 90%;
+    }
+
+    /*services*/
+    .container {
+        margin: 0px 3vw;
+    }
+
+    /*Rating*/
+
+    .list2 {
+        width: fit-content;
+        flex-direction: column;
+        flex: content;
+    }
+
+    .list1 {
+        justify-content: center;
+    }
+
+    .c1 {
+        flex-direction: column;
+    }
+
+    /*Hire*/
+    .MapaYFormulario {
+        flex-direction: column-reverse;
+    }
+
+    .MP {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px) {
+
+    /*Home*/
+    .super {
+        flex-direction: column-reverse;
+    }
+
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .i1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .txt1 {
+        font-size: 20px;
+    }
+
+    /*AboutUs*/
+
+    .i2,
+    .i3,
+    .i4 {
+        flex-direction: column;
+    }
+
+    /*contact*/
+
+    .txt5 {
+        flex-direction: column
+    }
+
+    .contactos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .I5 {
+        display: flex;
+        object-fit: cover;
+        width: 90%;
+    }
+
+    /*services*/
+
+    /*Rating*/
+
+    .list2 {
+        width: fit-content;
+        flex-direction: column;
+        flex: content;
+    }
+
+    .list1 {
+        justify-content: center;
+    }
+
+    .c1 {
+        flex-direction: column;
+    }
+
+    .piedepagina {
+        font-size: 20px;
+
+    }
+
+
+    /*Hire*/
+    .MapaYFormulario {
+        flex-direction: column-reverse;
+    }
+
+    .MP {
+        display: flex;
+        justify-content: center;
+    }
+
+    .MAPA {
+        width: 80vw;
+        height: 30vh;
+    }
+}
